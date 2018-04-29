@@ -14,8 +14,8 @@ from circuitscape import __version__, __author__, __email__
 
 DATA_FILES = ['circuitscape/cs_logo.jpg', 'circuitscape/gui_rsrc.py',
               'cs_logo.ico']
-OPTIONS = {'includes': ['PythonCard', 'wx', 'wxversion', 'numpy', 'scipy',
-                        'pyamg', 'scipy.io.matlab.streams'],
+OPTIONS = {'packages': ['scipy'],
+           'includes': ['PythonCard', 'PythonCard.resource', 'scipy'],
            'excludes': ['Tkconstants', 'Tkinter']}
 
 # Compile cs_run.py first to ensure that dependencies needed for cs_gui also included.
