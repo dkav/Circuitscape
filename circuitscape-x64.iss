@@ -1,5 +1,5 @@
 ;ENTER VERSION INFO HERE
-#define Version "4.0.5"   
+#define Version "4.0.6"   
 
 ;TODO: Would be great to get the following to work, but version info isn't in exe file:
 ;#define AppVersion GetFileVersion("dist\csgui.exe")
