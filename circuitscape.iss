@@ -1,5 +1,5 @@
 ;ENTER VERSION INFO HERE
-#define Version "4.0.6"  
+#define Version "4.0.6"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -18,7 +18,7 @@ OutputBaseFilename=setup
 Compression=lzma
 SolidCompression=yes
 ; For 64-bit only:
-ArchitecturesInstallIn64BitMode=x64 
+ArchitecturesInstallIn64BitMode=x64
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
