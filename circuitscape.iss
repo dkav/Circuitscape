@@ -9,9 +9,9 @@ AppId={{E4376ABF-DB0A-41EA-B854-54ED7A20BD38}
 AppName=Circuitscape
 AppVerName=Circuitscape {#Version}
 AppPublisher=Circuitscape
-AppPublisherURL=http://www.circuitscape.org/
-AppSupportURL=http://www.circuitscape.org/
-AppUpdatesURL=http://www.circuitscape.org/
+AppPublisherURL=https://www.circuitscape.org/
+AppSupportURL=https://www.circuitscape.org/
+AppUpdatesURL=https://www.circuitscape.org/
 DefaultDirName={pf}\Circuitscape
 DefaultGroupName=Circuitscape
 OutputBaseFilename=setup
@@ -40,6 +40,6 @@ Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\Circuitscape"; Fil
 
 [Run]
 ;Filename: "{app}\circuitscape_4_0.pdf"; Description: "View the user guide"; Flags: postinstall shellexec skipifsilent
-Filename: http://docs.circuitscape.org/circuitscape_4_0_user_guide.html?id=Win32Install{#Version}; Description: "View the user guide"; Flags: postinstall shellexec skipifsilent
+Filename: https://circuitscape.org/docs/#3-installing-circuitscape; Description: "View the user guide"; Flags: postinstall shellexec skipifsilent
 Filename: "{app}\csgui.exe"; Description: "{cm:LaunchProgram,Circuitscape}"; Flags: nowait postinstall skipifsilent
 
