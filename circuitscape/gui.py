@@ -178,7 +178,7 @@ class GUI(model.Background):
         self.reset_status_bar()
 
     def on_menuHelpAbout_select(self, event):
-        messagetext = str('Version ' + self.state['version'] + '\n\nhttp://www.circuitscape.org/\n\nBrad McRae, Viral B. Shah, and Tanmay K. Mohapatra\n\nCircuitscape (C) 2008-09. Licensed under LGPL.')
+        messagetext = str('Version ' + self.state['version'] + '\n\nhttps://circuitscape.org\n\nBrad McRae, Viral B. Shah, and Tanmay K. Mohapatra\n\nCircuitscape (C) 2008-09. Licensed under LGPL.')
         dial = wx.MessageDialog(None, messagetext, 'Circuitscape', wx.OK)  # @UndefinedVariable
         dial.ShowModal()
         self.reset_status_bar()
@@ -189,13 +189,9 @@ class GUI(model.Background):
             self.options = result.options
             self.report_menu_files()
         self.reset_status_bar()
-        
-    def on_menuHelpManual_select(self, event):
-        #TODO: change to match release tag
-        webbrowser.open("http://docs.circuitscape.org/circuitscape_4_0_user_guide.html?id=Desktop_v" + self.state['version'])
 
-    def on_menuHelpFeedback_select(self, event):
-        webbrowser.open("http://www.circuitscape.org/Support?id=Desktop_v" + self.state['version'])
+    def on_menuHelpManual_select(self, event):
+        webbrowser.open("https://circuitscape.org/docs/")
 
     def save_file_dlg(self, title, wildcard):
         file_name = None
