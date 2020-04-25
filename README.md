@@ -1,6 +1,6 @@
-<a href="http://www.circuitscape.org/home/sa_sb2.jpg"><img src="http://www.circuitscape.org/home/sa_sb2.jpg"/></a>
-
 ## Circuitscape v4 
+
+**This package is now deprecated, and will no longer be maintained. Please use the latest version: [Circuitscape.jl](https://github.com/Circuitscape/Circuitscape.jl)**
 
 Circuitscape is a free, open-source program which borrows algorithms
 from electronic circuit theory to predict patterns of movement, gene
